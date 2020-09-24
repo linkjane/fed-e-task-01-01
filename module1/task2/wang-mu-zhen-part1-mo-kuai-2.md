@@ -2,9 +2,9 @@
 
 ## 一，基于以下代码完成下面四个练习
 
-![](.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20(21).png)
 
-![](.gitbook/assets/image.png)
+![](../../.gitbook/assets/image.png)
 
 ```javascript
 let isLastInStock = fp.flowRight(
@@ -15,7 +15,7 @@ let isLastInStock = fp.flowRight(
 
 ## 
 
-![](.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20(20).png)
 
 ```javascript
 const getFirstCarName = fp.flowRight(
@@ -26,7 +26,7 @@ const getFirstCarName = fp.flowRight(
 
 
 
-![](.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image%20(1).png)
 
 ```javascript
 let _average = xs => fp.reduce(fp.add, 0, xs) / xs.length;
@@ -38,7 +38,7 @@ let averageDollarValue = fp.flowRight(
 
 
 
-![](.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20(4).png)
 
 ```javascript
 const sanitizeNames = fp.flowRight(
@@ -48,11 +48,11 @@ const sanitizeNames = fp.flowRight(
 
 ## 二， 基于以下代码完成后续的四个练习
 
-![](.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20(8).png)
 
 
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20(11).png)
 
 ```javascript
 let maybe = Maybe.of([5, 6, 1]);
@@ -65,7 +65,7 @@ const functor = ex1(10);
 
 
 
-![](.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20(23).png)
 
 ```javascript
 let xs = Container.of(['do', 'ray', 'me', 'fa', 'so', 'la', 'ti', 'do']);
@@ -77,7 +77,7 @@ let ex2 = () => {
 
 
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20(14).png)
 
 ```javascript
 let ex3 = () => {
@@ -85,7 +85,7 @@ let ex3 = () => {
 }
 ```
 
-![](.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20(6).png)
 
 ```javascript
 let ex4 = function (n) {
