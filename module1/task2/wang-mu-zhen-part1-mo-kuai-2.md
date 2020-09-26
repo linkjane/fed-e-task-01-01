@@ -2,7 +2,7 @@
 
 ## 一，基于以下代码完成下面四个练习
 
-![](../../.gitbook/assets/image%20(21).png)
+!\[\]\(../../.gitbook/assets/image%20\(21\).png\)
 
 ![](../../.gitbook/assets/image.png)
 
@@ -13,9 +13,7 @@ let isLastInStock = fp.flowRight(
 );
 ```
 
-## 
-
-![](../../.gitbook/assets/image%20(20).png)
+!\[\]\(../../.gitbook/assets/image%20\(20\).png\)
 
 ```javascript
 const getFirstCarName = fp.flowRight(
@@ -24,9 +22,7 @@ const getFirstCarName = fp.flowRight(
 )
 ```
 
-
-
-![](../../.gitbook/assets/image%20(1).png)
+!\[\]\(../../.gitbook/assets/image%20\(1\).png\)
 
 ```javascript
 let _average = xs => fp.reduce(fp.add, 0, xs) / xs.length;
@@ -36,9 +32,7 @@ let averageDollarValue = fp.flowRight(
 );
 ```
 
-
-
-![](../../.gitbook/assets/image%20(4).png)
+!\[\]\(../../.gitbook/assets/image%20\(4\).png\)
 
 ```javascript
 const sanitizeNames = fp.flowRight(
@@ -48,11 +42,9 @@ const sanitizeNames = fp.flowRight(
 
 ## 二， 基于以下代码完成后续的四个练习
 
-![](../../.gitbook/assets/image%20(8).png)
+!\[\]\(../../.gitbook/assets/image%20\(8\).png\)
 
-
-
-![](../../.gitbook/assets/image%20(11).png)
+!\[\]\(../../.gitbook/assets/image%20\(11\).png\)
 
 ```javascript
 let maybe = Maybe.of([5, 6, 1]);
@@ -63,9 +55,7 @@ const functor = ex1(10);
 // functor._value 为 15, 16, 11
 ```
 
-
-
-![](../../.gitbook/assets/image%20(23).png)
+!\[\]\(../../.gitbook/assets/image%20\(23\).png\)
 
 ```javascript
 let xs = Container.of(['do', 'ray', 'me', 'fa', 'so', 'la', 'ti', 'do']);
@@ -75,9 +65,7 @@ let ex2 = () => {
 }
 ```
 
-
-
-![](../../.gitbook/assets/image%20(14).png)
+!\[\]\(../../.gitbook/assets/image%20\(14\).png\)
 
 ```javascript
 let ex3 = () => {
@@ -85,7 +73,7 @@ let ex3 = () => {
 }
 ```
 
-![](../../.gitbook/assets/image%20(6).png)
+!\[\]\(../../.gitbook/assets/image%20\(6\).png\)
 
 ```javascript
 let ex4 = function (n) {
@@ -97,13 +85,13 @@ let ex4 = function (n) {
 
 工作原理：记录下每个对象被多少其他对象引用的数字，当对应对象的引用数字为零时，对象就需要被垃圾回收。
 
-#### 优点：
+### 优点：
 
 * 可被立即回收
 * 回收速度快，单次垃圾回收量不大
 * 不用沿着引用链查找
 
-#### 缺点：
+### 缺点：
 
 * 计数器更新频繁，只要引用改变，对象的计数器就改变
 * 计数器本身也需要空间
@@ -124,6 +112,4 @@ let ex4 = function (n) {
 对于老生代的空间配置大，存活对象多，垃圾的标记，整理会占用很大时间，所以为了降低全堆垃圾回收的停顿时间，在标记时候采用增量标记方式。
 
 程序执行一段时间后，先标记直接可达对象，然后继续执行程序，之后再继续标记间接可达对象，将标记拆分为多个过程，每个标记过程完成后，就执行js程序一段时间，垃圾回收和js执行交替进行，直到标记阶段完成。后续就是进行整理和清除
-
-## 
 

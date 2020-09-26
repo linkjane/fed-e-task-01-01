@@ -1,17 +1,12 @@
 # pages-boilerplate
 
-[![Build Status][travis-image]][travis-url]
-[![Package Version][version-image]][version-url]
-[![License][license-image]][license-url]
-[![Dependency Status][dependency-image]][dependency-url]
-[![devDependency Status][devdependency-image]][devdependency-url]
-[![Code Style][style-image]][style-url]
+[![](https://img.shields.io/travis/zce/pages-boilerplate/master.svg)](https://travis-ci.org/zce/pages-boilerplate) [![](https://img.shields.io/github/package-json/v/zce/pages-boilerplate/master.svg)](https://github.com/zce/pages-boilerplate) [![](https://img.shields.io/github/license/zce/pages-boilerplate.svg)](https://github.com/zce/pages-boilerplate/blob/master/LICENSE) [![](https://img.shields.io/david/zce/pages-boilerplate.svg)](https://david-dm.org/zce/pages-boilerplate) [![](https://img.shields.io/david/dev/zce/pages-boilerplate.svg)](https://david-dm.org/zce/pages-boilerplate?type=dev) [![](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com)
 
 > Always a pleasure scaffolding your awesome static sites.
 
 ## Getting Started
 
-```shell
+```text
 # clone repo
 $ git clone https://github.com/zce/pages-boilerplate.git my-awesome-pages
 $ cd my-awesome-pages
@@ -21,13 +16,13 @@ $ yarn # or npm install
 
 ## Usage
 
-```shell
+```text
 $ yarn <task> [options]
 ```
 
 ### e.g.
 
-```shell
+```text
 # Runs the app in development mode
 $ yarn serve --port 5210 --open
 # Builds the app for production to the `dist` folder
@@ -48,36 +43,36 @@ Compile the styles & scripts & pages file.
 
 Runs the app in development mode with a automated server.
 
-##### options
+**options**
 
-- `open`: Open browser on start, Default: `false`
-- `port`: Specify server port, Default: `2080`
+* `open`: Open browser on start, Default: `false`
+* `port`: Specify server port, Default: `2080`
 
 #### `yarn build` or `npm run build`
 
 Builds the app for production to the `dist` folder. It minify source in production mode for the best performance.
 
-##### options
+**options**
 
-- `production`: Production mode flag, Default: `false`
-- `prod`: Alias to `production`
+* `production`: Production mode flag, Default: `false`
+* `prod`: Alias to `production`
 
 #### `yarn start` or `npm run start`
 
 Running projects in production mode.
 
-##### options
+**options**
 
-- `open`: Open browser on start, Default: `false`
-- `port`: Specify server port, Default: `2080`
+* `open`: Open browser on start, Default: `false`
+* `port`: Specify server port, Default: `2080`
 
 #### `yarn deploy` or `npm run deploy`
 
 Deploy the `dist` folder to [GitHub Pages](https://pages.github.com).
 
-##### options
+**options**
 
-- `branch`: The name of the branch you'll be pushing to, Default: `'gh-pages'`
+* `branch`: The name of the branch you'll be pushing to, Default: `'gh-pages'`
 
 #### `yarn clean` or `npm run clean`
 
@@ -85,7 +80,7 @@ Clean the `dist` & `temp` files.
 
 ## Folder Structure
 
-```
+```text
 └── my-awesome-pages ································· project root
    ├─ public ········································· static folder
    │  └─ favicon.ico ································· static file (unprocessed)
@@ -120,7 +115,7 @@ Clean the `dist` & `temp` files.
 
 ## Related
 
-- [zce/x-pages](https://github.com/zce/x-pages) - A fully managed gulp workflow for static page sites.
+* [zce/x-pages](https://github.com/zce/x-pages) - A fully managed gulp workflow for static page sites.
 
 ## Contributing
 
@@ -135,19 +130,5 @@ Clean the `dist` & `temp` files.
 
 ## License
 
-[MIT](LICENSE) &copy; [汪磊](https://zce.me)
+[MIT](https://github.com/linkjane/fed-e-task-01-01/tree/ec81d3b0a0c59ffeccba67251d6d872167159ce9/module2/task1/pages-boilerplate/LICENSE/README.md) © [汪磊](https://zce.me)
 
-
-
-[travis-image]: https://img.shields.io/travis/zce/pages-boilerplate/master.svg
-[travis-url]: https://travis-ci.org/zce/pages-boilerplate
-[version-image]: https://img.shields.io/github/package-json/v/zce/pages-boilerplate/master.svg
-[version-url]: https://github.com/zce/pages-boilerplate
-[license-image]: https://img.shields.io/github/license/zce/pages-boilerplate.svg
-[license-url]: https://github.com/zce/pages-boilerplate/blob/master/LICENSE
-[dependency-image]: https://img.shields.io/david/zce/pages-boilerplate.svg
-[dependency-url]: https://david-dm.org/zce/pages-boilerplate
-[devdependency-image]: https://img.shields.io/david/dev/zce/pages-boilerplate.svg
-[devdependency-url]: https://david-dm.org/zce/pages-boilerplate?type=dev
-[style-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
-[style-url]: http://standardjs.com
