@@ -7,5 +7,5 @@
   * [task1](module1/task1/README.md)
     * [Table of contents](module1/task1/summary.md)
 * [module2](module2/README.md)
-  * [task1](module2/task1.md)
+  * [task1](module2/task1/README.md)
 
