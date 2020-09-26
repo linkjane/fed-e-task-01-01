@@ -7,6 +7,5 @@
   * [task1](module1/task1/README.md)
     * [Table of contents](module1/task1/summary.md)
 * [module2](module2/README.md)
-  * [Part2 \| 模块1](module2/task1/README.md)
-    * [part2 \| 模块2](module2/task1/readme.md)
+  * [Part2 \| 模块1](module2/task1.md)
 
