@@ -8,5 +8,5 @@
     * [Table of contents](module1/task1/summary.md)
 * [module2](module2/README.md)
   * [task1](module2/task1/README.md)
-    * [part2 \| 模块2](module2/task1/part2-mo-kuai-2.md)
+    * [part2 \| 模块2](module2/task1/part2-module2.md)
 
