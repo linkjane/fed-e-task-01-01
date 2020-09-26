@@ -1,7 +1,3 @@
----
-description: part2 | 模块2
----
-
 # part2 \| 模块2
 
 ## 简答题
