@@ -60,6 +60,11 @@ module.exports = {
       }
     ]
   },
+  optimization: {
+   splitChunks: {
+     chunks: 'all'
+   }
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: '拉钩作业',
